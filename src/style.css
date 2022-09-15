@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&family=Roboto:ital,wght@0,400;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Roboto;
+}
+#header a{
+    color:#000 ;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.navigation {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 10px;
+}
+.nav_left ul, .nav_right ul {
+	display: flex;
+}
+.nav_left ul li, .nav_right ul li {
+    padding: 0 10px;
+}
+#header {
+	position: fixed;
+	width: 100%;
+}
+.section_1 {
+	/* background-image: url('../public/tesla\ images/model-s.jpg'); */
+	height: 100vh;
+	/* background-repeat: no-repeat; */
+	/* background-size: cover; */
+	display: flex;
+	text-align: center;
+	align-items: center;
+    flex-direction: column;
+}
+.top_btns a{
+    margin: 15px;
+}
+.tagline {
+	margin-top: 6rem;
+	margin-bottom: 24rem;
+}
+.tagline h1 {
+	margin-bottom: 15px;
+}
+.top_btns a.white {
+	padding: 10px 50px;
+	background: #fff;
+	color: #000;
+    border-radius: 15px;;
+}
+.top_btns a.gray{
+    background-color: rgb(46, 46, 46);
+    color: #fff;
+}
+.down_arrow img{
+    
+    width: 35PX;
+}
+
+.sideNav {
+	position: fixed;
+	height: 100vh;
+	background: #fff;
+	padding: 15px;
+	/* right: -200px; */
+	top: 0;
+	width: 200px;
+	transition: all 0.8s ease-in-out;
+}
+.sideNav li a {
+	display: inline-block;
+	padding: 1rem 0;
+}
+.cross {
+	position: absolute;
+	right: 2rem;
+	top: 0.5rem;
+	cursor: pointer;
+}
